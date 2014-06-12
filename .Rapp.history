@@ -1,0 +1,79 @@
+sample(0:1, 10, replace=T)
+a <- sample(0:1, 10. replace=T)
+a <- sample(0:1, 10, replace=T)
+a
+sample(0:1, 10, replace=T)
+sample(0:1, 10, replace=T, prob=c(0.7,0.3))
+x <- sample(0:1, 10, replace=T, prob=c(0.7, 0.3))
+mean(x)
+x
+sample(0:1, 10, replace=F, prob=c(0.7,0.3))
+sample(0:1, 10, replace=F)
+sample(0:1, 2, replace=F)
+sample(0:1, 3, replace=F)
+mean.x=cumsum(x)/(1:600)
+mean.x
+plot(1:600, mean.x, cex=0.4)
+abline(h=0.3, col="red")
+x <- sample(1:10, 600, replace=T, prob(0.7,0.3))
+x <- sample(1:10, 600, replace=T, prob=c(0.7,0.3))
+x <- sample(0:1, 600, replace=T, prob=c(0.7,0.3))
+mean.x
+x
+mean(x)
+mean.x
+mean.x=cumsum(x)/(1:600)
+mean.x
+plot(1:600, mean.x, cex=0.4)
+abline(h=0.3, col="red")
+SE=sqrt(mean(x)*(1-mean(x)/600))
+SE
+c(mean(x)-2*SE,mean(x)+2*SE)
+mean(x)
+c(mean(x)-2*SE,mean(x)+2*SE)
+SE=sqrt(mean(x)*(1-mean(x))/600))
+SE=sqrt(mean(x)*(1-mean(x))/600)
+SE
+c(mean(x)-2*SE,mean(x)+2*SE)
+nit <- function(n) {#
+	v <- 2*n*log(n); if (is.nan(v))  v <- 0#
+	return(as.numeric(v))#
+	}
+nit(4)
+nit(25)
+class(Ih)
+Ih
+library(stats)
+class(Ih)
+stats
+stats.surface
+AIC
+Ih
+library("RFinanceY")
+library("RFinanceYJ")
+auto
+arima
+plot(forecast(model, level=c(,95), h= 50))
+forecast
+forecast(model, level= c(,95), h=50)
+set.seed(1)
+d <- arima.sim(n=200,model=list(order=c(2,0,2),ar=c(0.7,0.3)),sd=sqrt(1))
+d <- arima.sim(n=200,model=list(order=c(2,0,2),ar=c(0.7,0.3),ma=c(0.7,0.3)),sd=sqrt(1))
+d <- arima.sim(n=200,model=list(order=c(2,0,2),ar=c(0.2,0.7),ma=c(0.7,0.3)),sd=sqrt(1))
+d
+arima
+sim
+setwd("~/Documents/sfc/時系列解析/")
+ozone <- read.csv("ozone.txt")
+data(ozone)
+ozone
+data(ozone)
+library(zoo)
+ts <- zoo(x, dt)
+ts
+library(xts)
+ts <- xts(x, dt)
+library(xts)
+data(sample_matrix)
+library(xts)
+ts

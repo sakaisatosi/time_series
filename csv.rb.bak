@@ -1,0 +1,17 @@
+require "csv"
+require "date"
+# time = []
+CSV.foreach("ozone.txt", encoding: "ASCii:UTF-8") do |row|
+    time = row.shift
+    time2 = time.split("/")
+    month = time2[0]
+    day = time2[1]
+    year = time2[2]
+    p Time.local(year, month, day)
+    # i += 1
+    # p row
+    # p time
+    # p Date.strptime(time, "%m/%x/%Y")
+end
+# p time[1]
+# p time[2]
